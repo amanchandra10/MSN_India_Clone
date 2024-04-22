@@ -1,0 +1,19 @@
+.secondnav{
+ padding-top: 0.6rem;
+ width: 100%;
+ /* background-color: pink; */
+ flex-wrap: wrap;
+}
+.ulnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linav{
+    font-size: large;
+    font-weight: 600;
+    color: gray;
+}
+.linav:hover{
+    text-decoration: underline;
+}

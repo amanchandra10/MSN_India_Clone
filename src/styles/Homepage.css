@@ -1,0 +1,41 @@
+#startmain{
+   margin-top: 7rem;
+   display:flex ;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+}
+
+#main1{
+   /* background-color: green; */
+   width: 100vw;
+    height: auto;
+    /* margin-top: 7rem; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+
+
+}
+
+.main12{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hrline{
+    width:87%;
+}
+
+
+
+
+
+
+
+
+
+    
