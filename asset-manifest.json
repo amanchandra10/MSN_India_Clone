@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MSN_India_Clone/static/css/main.8c179bc6.css",
+    "main.js": "/MSN_India_Clone/static/js/main.6880ff24.js",
+    "static/js/453.5aa9dff5.chunk.js": "/MSN_India_Clone/static/js/453.5aa9dff5.chunk.js",
+    "static/media/Pic4.jpg": "/MSN_India_Clone/static/media/Pic4.e3b7cabd92307f1c88c1.jpg",
+    "static/media/Pic1.jpg": "/MSN_India_Clone/static/media/Pic1.f03404bec3d835495586.jpg",
+    "static/media/Pic3.jpg": "/MSN_India_Clone/static/media/Pic3.b36b5c95c19a0800a3cf.jpg",
+    "static/media/Pic2.jpg": "/MSN_India_Clone/static/media/Pic2.b6aecb3a9de6cdf8819e.jpg",
+    "index.html": "/MSN_India_Clone/index.html",
+    "main.8c179bc6.css.map": "/MSN_India_Clone/static/css/main.8c179bc6.css.map",
+    "main.6880ff24.js.map": "/MSN_India_Clone/static/js/main.6880ff24.js.map",
+    "453.5aa9dff5.chunk.js.map": "/MSN_India_Clone/static/js/453.5aa9dff5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c179bc6.css",
+    "static/js/main.6880ff24.js"
+  ]
+}
