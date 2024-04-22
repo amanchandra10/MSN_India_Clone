@@ -1,18 +1,22 @@
 .secondnav{
  padding-top: 0.6rem;
- width: 100%;
+ /* width: 100vw; */
  /* background-color: pink; */
  flex-wrap: wrap;
 }
 .ulnav{
+    /* background-color: aqua; */
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 .linav{
     font-size: large;
     font-weight: 600;
     color: gray;
+    padding: 0rem 1rem 0rem 0.1rem;
 }
 .linav:hover{
     text-decoration: underline;

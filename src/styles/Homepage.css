@@ -23,7 +23,8 @@
 
 .main12{
     display: flex;
-    justify-content: space-between;
+    gap: 0.5rem;
+    /* justify-content: space-evenly; */
 }
 
 .hrline{

@@ -37,14 +37,18 @@ body{
     width: 20rem;
 }
 
-
-
+.schwrap{
+    width: 50rem;
+}
+.searchinput{
+    width: 100%;;
+}
 .searchspan{
     display: flex;
 }
 .schinput{
     height: 2.8rem;
-    width: 40rem;
+    width: 100%;
     border: none;
     border-radius: 5px 0px 0px 5px;
     box-shadow: 0.2px .2px 1px .2px gray;
