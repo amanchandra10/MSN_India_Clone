@@ -3,6 +3,7 @@ import Layout from "../components/Layout/Layout";
 import "../styles/Homepage.css";
 import "../styles/Nav2.css";
 import Nav2 from "../components/Navs/Nav2";
+import { Link } from "react-router-dom";
 import Cards from "../components/Cards";
 import Cards1 from "../components/Cards1";
 import Nav3 from "../components/Navs/Nav3";

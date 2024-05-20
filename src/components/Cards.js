@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 
 const Cards = () => {
   return (
-    <div>
           <div className="main2">
           <div id="slider1">
             <Link to={"#"} className="cursor-pointer">
@@ -74,7 +73,7 @@ const Cards = () => {
             </div>
           </div>
           </div>
-    </div>
+    
   )
 }
 

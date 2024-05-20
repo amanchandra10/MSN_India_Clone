@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Nav2 = () => {
   return (
-    <div>
+    
         <div className="secondnav">
           <ul className="ulnav">
             <NavLink to={"#"}><li className="linav">Cricket WC</li></NavLink>
@@ -24,7 +24,6 @@ const Nav2 = () => {
          
           </ul>
         </div>
-    </div>
   )
 }
 

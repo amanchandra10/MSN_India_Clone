@@ -1,7 +1,7 @@
 #slider1{
      /* background-color: yellow; */
     /* height: 35rem; */
-    width: 40rem;
+    /* width: 40rem; */
     border-radius: 10px;
     padding: 2px;
 }
@@ -9,16 +9,19 @@
 
 .main2{
     /* background-color: blue; */
-    width: 40rem;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0.5rem;
+    /* width: 40rem; */
 }
 
 
 
 
 .mainright{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 0.8rem;
 }
 
 
@@ -114,14 +117,12 @@
 
 
 
-.con{
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-wrap: wrap;
+/* .con{
+    display: grid;
+  
 
-}
-.cards{
+} */
+/* .cards{
     display: flex;
     padding: .5rem;
     background-color: white;
@@ -129,7 +130,7 @@
     margin-top: .8rem;
     box-shadow: 0.5px 0.5px 4px 0.5px gray;
 
-}
+} */
 .cardimg1{
     border-radius: 5px;
     height: 5.5rem;
@@ -146,3 +147,17 @@
     width: 11.6rem;
 
 }
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .mainright{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 0.8rem;
+        margin-top: 1rem;
+    
+    }
+    }

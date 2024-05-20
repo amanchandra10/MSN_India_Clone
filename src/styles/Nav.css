@@ -12,14 +12,17 @@ body{
 }
 .forul{
     display: flex;
+
+}
+.forul1{
+    display: none;
 }
 .nav1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
     background-color: whitesmoke;
     height: 7.1rem;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     /* padding: 0.5rem 0.5rem; */
     justify-content: space-between;
@@ -34,15 +37,11 @@ body{
     display: flex;
     /* background-color: pink; */
     margin-left: 2rem;
-    width: 20rem;
+    width: 100%;
 }
 
-.schwrap{
-    width: 50rem;
-}
-.searchinput{
-    width: 100%;;
-}
+
+
 .searchspan{
     display: flex;
 }
@@ -92,7 +91,7 @@ body{
 .nav12{
     display: flex;
     margin-right: 2rem;
-    width: 20rem;
+    /* width: 20rem; */
     /* background-color: red; */
     justify-content: center;
     /* background-color: red; */
@@ -149,6 +148,46 @@ body{
 .img2{
     width: 1.2rem;
     height: 1.2rem;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .nav1{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 25% 50% 25%;
+        background-color: whitesmoke;
+        height: 8.1rem;
+        width: 100%;
+        align-items: center;
+        /* padding: 0.5rem 0.5rem; */
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        box-shadow: 1px 1px 4px 1px gray;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+    .nav11{
+        width: 36rem;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;
+        justify-content: space-between;
+    }
+    .recentsch{
+        display: none;
+    }
+    .nav12{
+        display: none;
+    }
+    .forul1{
+        display: block;
+    }
 }
 
 

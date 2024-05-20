@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Cards1.css"
+import Banner from './Banner'
 import { Link } from 'react-router-dom'
 
 const Cards1 = () => {

@@ -25,10 +25,9 @@
 }
 
 .con{
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.8rem;
 
 }
 .cards{
@@ -36,7 +35,7 @@
     padding: .5rem;
     background-color: white;
     border-radius: 5px;
-    margin-top: .8rem;
+    /* margin-top: .8rem; */
     box-shadow: 0.5px 0.5px 4px 0.5px gray;
 
 }
@@ -56,3 +55,5 @@
     width: 11.6rem;
 
 }
+
+

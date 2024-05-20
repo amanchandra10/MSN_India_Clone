@@ -3,7 +3,7 @@ import { NavLink } from 'react-bootstrap'
 
 const Nav3 = () => {
   return (
-    <div>
+   
         <div className="secondnav">
           <ul className="ulnav">
             <NavLink to={"#"}><li className="linav">Trending In Your Language{'>'} </li></NavLink>
@@ -24,7 +24,7 @@ const Nav3 = () => {
          
           </ul>
         </div>
-    </div>
+   
   )
 }
 

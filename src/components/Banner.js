@@ -8,8 +8,8 @@ const Banner = () => {
       <Carousel>
         <Carousel.Item>
           <img
-            style={{borderRadius:"5px"}}
-            className="d-block h-75 w-100 sliderImg"
+            style={{borderRadius:"5px",aspectRatio:"3/1.76"}}
+            className="d-block sliderImg"
             src={pic1}
             alt="First slide"
           />
@@ -20,8 +20,8 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{borderRadius:"5px"}}
-            className="d-block h-75 w-100 sliderImg"
+            style={{borderRadius:"5px",aspectRatio:"3/1.76"}}
+            className="d-block sliderImg"
             src={pic2}
             alt="Second slide"
           />
@@ -34,8 +34,8 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{borderRadius:"5px"}}
-            className="d-block h-75 w-100 sliderImg"
+            style={{borderRadius:"5px",aspectRatio:"3/1.76"}}
+            className="d-block sliderImg"
             src={pic3}
             alt="Third slide"
           />
@@ -46,8 +46,8 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{borderRadius:"5px"}}
-            className="d-block h-75 w-100 sliderImg"
+            style={{borderRadius:"5px",aspectRatio:"3/1.76"}}
+            className="d-block sliderImg"
             src={pic4}
             alt="Third slide"
           />

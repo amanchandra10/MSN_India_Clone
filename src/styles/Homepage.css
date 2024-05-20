@@ -4,11 +4,12 @@
    flex-direction: column; 
    justify-content: center;
    align-items: center;
+   width: 100vw;
 }
 
 #main1{
    /* background-color: green; */
-   width: 100vw;
+    width: 100vw;
     height: auto;
     /* margin-top: 7rem; */
     /* display: flex;
@@ -21,17 +22,45 @@
 
 }
 
+
+
 .main12{
-    display: flex;
-    gap: 0.5rem;
-    /* justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: 50% auto;
+    
 }
 
 .hrline{
-    width:87%;
+    width:83%;
 }
 
+@media screen and (max-width: 480px) {
+    #main1{
+        /* background-color: green; */
+        width: 100vw;
+         height: auto;
+         /* margin-top: 7rem; */
+         /* display: flex;
+         justify-content: center;
+         align-items: center; */
+         padding-left: 0rem;
+         padding-right: 2rem;
+         padding-bottom: 0rem;
+    }
+    
 
+    .main12{
+        display: grid;
+        grid-template-columns: auto;
+        width: 42rem;
+        padding: 1rem;
+        /* background-color: red; */
+    }
+    #startmain{
+        margin-top: 8rem;
+        /* padding-right: 4rem; */
+    }
+}
 
 
 

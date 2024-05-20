@@ -1,10 +1,23 @@
-import React from "react";
-import {NavLink,Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Form, NavLink, useNavigate,Link } from "react-router-dom";
+import toast from "react-hot-toast";
 import "../../styles/Nav.css";
-
+// import { Checkbox } from "antd";
+// import axios from "axios";
+// import SearchInput from "../../components/Form/SearchInput.js";
+// import {Badge} from 'antd'
+// import { useCart } from "../../context/cart";
 
 const Header = () => {
-
+  // const navigate = useNavigate();
+  // const [cart, setCart] = useCart();
+  const [products, setProducts] = useState([]);
+  const [categories, setCategories] = useState([]);
+  const [checked, setChecked] = useState([]);
+  const [radio, setRadio] = useState([]);
+  const [total, setTotal] = useState(0);
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(false);
 
 
   return (
@@ -14,7 +27,7 @@ const Header = () => {
           <ul className="ul1">
             <li className="li1">
             </li>
-            <li className="li1">
+            <li className="li12">
               <NavLink href="mailto:" className="a1">
                 <img
                   src="./resources/navlogo.jpg"
@@ -24,6 +37,57 @@ const Header = () => {
               </NavLink>
             </li>
           </ul>
+          <div className="forul1">
+            <ul className="ul111">
+            <li className="li1">
+              <NavLink href="mailto:" className="a1">
+                <img
+                  src="./resources/medal.png"
+                  alt="logo"
+                  className="img2 icon-size"
+                />
+              </NavLink>
+            </li>
+            <li className="li1">
+              <NavLink href="mailto:" className="a1">
+                <img
+                  src="./resources/user.png"
+                  alt="gmail-logo"
+                  className="img2 icon-size"
+                />
+              </NavLink>
+            </li>
+            <li className="li1">
+              <NavLink href="mailto:" className="a1">
+                <img
+                  src="./resources/bell.png"
+                  alt="gmail-logo"
+                  className="img2 icon-size"
+                />
+              </NavLink>
+            </li>
+            <li className="li1">
+              <NavLink href="mailto:" className="a1">
+                <img
+                  src="./resources/settings.png"
+                  alt="gmail-logo"
+                  className="img2 icon-size"
+                />
+              </NavLink>
+            </li>
+            <li className="li1">
+              <NavLink href="mailto:" className="a1">
+                <span className="langspam"><img
+                  src="./resources/globe.png"
+                  alt="gmail-logo"
+                  className="img2 icon-size"
+                /><h3>EN</h3> </span>
+              </NavLink>
+            </li>
+      
+            </ul>
+          
+          </div>
         </div>
         <div className="schwrap">
 
