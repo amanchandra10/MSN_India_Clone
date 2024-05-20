@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { Form, NavLink, useNavigate,Link } from "react-router-dom";
-import toast from "react-hot-toast";
+import React from "react";
+import { NavLink,Link } from "react-router-dom";
+// import toast from "react-hot-toast";
 import "../../styles/Nav.css";
 // import { Checkbox } from "antd";
 // import axios from "axios";
@@ -11,13 +11,13 @@ import "../../styles/Nav.css";
 const Header = () => {
   // const navigate = useNavigate();
   // const [cart, setCart] = useCart();
-  const [products, setProducts] = useState([]);
-  const [categories, setCategories] = useState([]);
-  const [checked, setChecked] = useState([]);
-  const [radio, setRadio] = useState([]);
-  const [total, setTotal] = useState(0);
-  const [page, setPage] = useState(1);
-  const [loading, setLoading] = useState(false);
+  // const [products, setProducts] = useState([]);
+  // const [categories, setCategories] = useState([]);
+  // const [checked, setChecked] = useState([]);
+  // const [radio, setRadio] = useState([]);
+  // const [total, setTotal] = useState(0);
+  // const [page, setPage] = useState(1);
+  // const [loading, setLoading] = useState(false);
 
 
   return (
